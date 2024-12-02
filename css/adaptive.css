@@ -1,0 +1,15 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    header {
+        left: 41%;
+    }
+
+    .section-image {
+        padding: 254px 349px 331px 11px;
+    }
+}
+

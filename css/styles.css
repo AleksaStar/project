@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    font-family: Nunito, sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 27px;
+    left: 42%;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-form {
+    padding: 194px 41px 191px 423px;
+    max-width: 452px;
+    background-color: #FFFFFB;
+}
+
+.title {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.title-text {
+    font-size: 22px;
+    color: #636363;
+    margin-bottom: 42px;
+    height: 81px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-subtitle {
+    font-size: 16px;
+    color: #C6C6C4;
+}
+
+.form-text {
+    font-size: 20px;
+    color: #323232;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    margin-top: 5px;
+    font-family: Nunito, sans-serif;
+}
+
+.form-text::placeholder {
+    font-size: 20px;
+    color: #323232;
+    font-family: Nunito, sans-serif;
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    box-shadow: none;
+}
+
+.form-checkbox {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.checkbox-text {
+    margin-left: 10px;
+}
+
+.btn {
+    border: none;
+    width: 210px;
+    background-color: #DD3142;
+    padding: 21px 21px 25px;
+    border-radius: 40px;
+    margin: 40px 105px 44px 124px;
+    cursor: pointer;
+}
+
+.btn a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-query {
+    font-size: 16px;
+    color: #636363;
+    margin-left: 138px;
+}
+
+.section-image {
+    padding: 254px 406px 331px 11px;
+    background-color: #F8F8FA;
+    box-sizing: border-box;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#modal-ok-btn {
+    background-color: #DD3142;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#modal-ok-btn:hover {
+    background-color: #c0293b;
+}

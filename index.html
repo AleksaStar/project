@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <img src="images/logo.png" alt="Logo">
+    </header>
+
+    <main class="main">
+        <div class="section">
+            <div class="section-form">
+                <div class="form-title">
+                    <h1 class="title">Get your free account</h1>
+                    <h3 class="title-text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</h3>
+                </div>
+
+                <form action="#1" id="sign-in-form">
+                    <div class="form-block">
+                        <span class="form-subtitle">Full name</span>
+                        <label for="full-name"></label>
+                        <input class="form-text" type="text" name="description" id="full-name">
+                    </div>
+                    <div class="form-block">
+                        <span class="form-subtitle">Your username</span>
+                        <label for="username"></label>
+                        <input class="form-text" type="text" name="description" id="username">
+                    </div>
+                    <div class="form-block">
+                        <span class="form-subtitle">E-mail</span>
+                        <label for="email"></label>
+                        <input class="form-text" name="description" id="email">
+                    </div>
+                    <div class="form-block">
+                        <span class="form-subtitle">Password</span>
+                        <label for="password"></label>
+                        <input class="form-text" type="password" name="description" id="password">
+                    </div>
+                    <div class="form-block">
+                        <span class="form-subtitle">Repeat Password</span>
+                        <label for="repeat-password"></label>
+                        <input class="form-text" type="password" name="description" id="repeat-password">
+                    </div>
+                    <div class="form-checkbox">
+                        <label for="checkbox"></label>
+                        <input type="checkbox" id="checkbox">
+                        <div class="checkbox-text">Agree to our Terms of Service and Privacy Statement</div>
+                    </div>
+                    <button class="btn" id = "sign-up">
+                        <a href="#2">Sign Up</a>
+                    </button>
+                    <span class="form-query">Already have an account?</span>
+                </form>
+
+            </div>
+            <div class="section-image">
+                <img src="images/image.png" alt="">
+            </div>
+        </div>
+    </main>
+
+</div>
+
+<div id="success" class="modal">
+    <div class="modal-content">
+        <p>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+        <button id="modal-ok-btn">OK</button>
+    </div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
